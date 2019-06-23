@@ -22,5 +22,7 @@ window.onload = function() {
 		event.preventDefault();
 
 		reverseString(this.children[0].children[0].value);
+
+		this.reset();
 	});
 };
