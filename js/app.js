@@ -20,5 +20,7 @@ window.onload = function() {
 	let form = document.getElementById("form");
 	form.addEventListener("submit", function(event) {
 		event.preventDefault();
+
+		reverseString(this.children[0].children[0].value);
 	});
 };
