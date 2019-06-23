@@ -12,3 +12,15 @@ body, html {
 	font-size: 16px;
 	color: white;
 }
+
+
+/* HEADER */
+h1 {
+	margin: 0;
+}
+
+header {
+	margin-bottom: 20vh;
+	border-bottom: 1px white solid;
+	padding: 2vh 0;
+}
