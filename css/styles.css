@@ -27,6 +27,46 @@ header {
 }
 
 
+/* MAIN */
+#display {
+	font-size: 1.4em;
+}
+
+#form-string {
+	display: block;
+	margin: 0 auto;
+	border: none;
+	border-bottom: 1px white solid;
+	background-color: transparent;
+	text-align: center;
+	font-size: 1.2em;
+	color: white;
+}
+
+#form-string::placeholder {
+	font-style: italic;
+	opacity: 0.5;
+	color: white;
+}
+
+#form-submit {
+	display: block;
+	margin: 2vh auto 0;
+	border: 4px transparent solid;
+	border-radius: 20px;
+	padding: 1vh 6vw;
+	background-color: lightsteelblue;
+	font-size: 1.1em;
+	color: black;
+}
+
+#form-submit:active {
+	background-color: orange;
+	border-color: lightsteelblue;
+	color: white;
+}
+
+
 
 /* FOOTER */
 footer {
