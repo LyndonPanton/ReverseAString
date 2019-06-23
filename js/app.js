@@ -14,7 +14,7 @@ window.onload = function() {
 			result.unshift(str[i]);
 		}
 
-		return result.join("");
+		return reverseDisplay(result.join(""));
 	}
 
 	let form = document.getElementById("form");
