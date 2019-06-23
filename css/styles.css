@@ -23,4 +23,42 @@ header {
 	margin-bottom: 20vh;
 	border-bottom: 1px white solid;
 	padding: 2vh 0;
+	background-color: black;
+}
+
+
+
+/* FOOTER */
+footer {
+	position: absolute;
+	bottom: 0;
+	min-width: 100%;
+	padding: 2vh 0;
+	background-color: black;
+}
+
+.more-link {
+	color: white;
+}
+
+.more-link:active {
+	color: red !important;
+}
+
+.more-link:focus {
+	color: green;
+}
+
+.more-link:hover {
+	color: blue;
+}
+
+#copyright {
+	display: block;
+}
+
+#more {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
 }
