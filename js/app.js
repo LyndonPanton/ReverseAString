@@ -3,6 +3,10 @@
 window.onload = function() {
 	document.getElementById("copyright-year").textContent = (new Date()).getFullYear();
 
+	function reverseDisplay(reverse) {
+			document.getElementById("display").textContent = reverse;
+	}
+
 	function reverseString(str) {
 		let result = [];
 
